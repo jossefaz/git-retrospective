@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "git-retrospective"
+version = "0.1.0"
+description = ""
+authors = ["jossefaz <jossefaz@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.12"
+PyGithub = "^2.3.0"
+pandas = "^2.2.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
